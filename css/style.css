@@ -304,13 +304,16 @@ span{
     .main-header footer{
         position: inherit;
         bottom: 0;
-        margin-right: 2em;
+        margin-right: 9em;
+    }
+    .main-header h1{
+        font-size: 5em;
     }
     .imagemMascara >img{
         border-radius: 50%;
         border: solid 3px #d1e1ff;
         width: 15em;
-        margin: 2em 0 2em 5.625em;
+        margin: 2em 0 2em 4.5em;
         position:relative;
         z-index: 2;
     }
@@ -339,6 +342,12 @@ span{
     #youtube iframe{
         width: 100%;
         margin-bottom: 1em;
+    }
+    .secondIframe{
+        margin-top: 2.1em;
+    }
+    .sobre{
+        display: block;
     }
 }
 
